@@ -1,4 +1,4 @@
-<!-- FInal MCQ V8.html -->
+<!-- FInal MCQ V9.html -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -2671,7 +2671,8 @@
                     title: "Python MCQ Examination",
                     totalQuestions: questions.length,
                     timeLimit: "30 minutes",
-                    date: examStartTime.toISOString()
+                    startTime: examStartTime.toLocaleString('en-US', { timeZone: 'Asia/Dhaka' }),
+                    submissionTime: new Date().toLocaleString('en-US', { timeZone: 'Asia/Dhaka' })
                 },
                 performance: {
                     score: score,
